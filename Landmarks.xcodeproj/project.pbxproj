@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3906B981244B3AA0009EA989 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906B980244B3AA0009EA989 /* Badge.swift */; };
+		3906B983244B3B2E009EA989 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906B982244B3B2E009EA989 /* HexagonParameters.swift */; };
+		39553788244B47D3003A0AA0 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39553787244B47D3003A0AA0 /* BadgeBackground.swift */; };
+		3955378A244B4867003A0AA0 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39553789244B4867003A0AA0 /* BadgeSymbol.swift */; };
+		3955378C244B4A83003A0AA0 /* RotatedBagdeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3955378B244B4A83003A0AA0 /* RotatedBagdeSymbol.swift */; };
 		3981404B24342AE7004A62CB /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3981404A24342AE7004A62CB /* UserData.swift */; };
 		73887AE22433AB8800A5AE43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73887AE12433AB8800A5AE43 /* AppDelegate.swift */; };
 		73887AE42433AB8800A5AE43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73887AE32433AB8800A5AE43 /* SceneDelegate.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3906B980244B3AA0009EA989 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		3906B982244B3B2E009EA989 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		39553787244B47D3003A0AA0 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		39553789244B4867003A0AA0 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		3955378B244B4A83003A0AA0 /* RotatedBagdeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBagdeSymbol.swift; sourceTree = "<group>"; };
 		3981404A24342AE7004A62CB /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		73887ADE2433AB8800A5AE43 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73887AE12433AB8800A5AE43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +90,8 @@
 		73887AD52433AB8800A5AE43 = {
 			isa = PBXGroup;
 			children = (
+				39553789244B4867003A0AA0 /* BadgeSymbol.swift */,
+				3955378B244B4A83003A0AA0 /* RotatedBagdeSymbol.swift */,
 				73887AE02433AB8800A5AE43 /* Landmarks */,
 				73887ADF2433AB8800A5AE43 /* Products */,
 			);
@@ -101,6 +113,9 @@
 				73887AE12433AB8800A5AE43 /* AppDelegate.swift */,
 				73887AE32433AB8800A5AE43 /* SceneDelegate.swift */,
 				73887AE52433AB8800A5AE43 /* LandmarkDetail.swift */,
+				3906B982244B3B2E009EA989 /* HexagonParameters.swift */,
+				3906B980244B3AA0009EA989 /* Badge.swift */,
+				39553787244B47D3003A0AA0 /* BadgeBackground.swift */,
 				73EBE9882433B47000393754 /* LandmarkRow.swift */,
 				73EBE98A2433BBE100393754 /* LandmarkList.swift */,
 				3981404A24342AE7004A62CB /* UserData.swift */,
@@ -243,12 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3906B983244B3B2E009EA989 /* HexagonParameters.swift in Sources */,
+				3906B981244B3AA0009EA989 /* Badge.swift in Sources */,
 				73EBE9872433B30500393754 /* Data.swift in Sources */,
+				3955378C244B4A83003A0AA0 /* RotatedBagdeSymbol.swift in Sources */,
 				73887AE22433AB8800A5AE43 /* AppDelegate.swift in Sources */,
 				73887AF62433ABC800A5AE43 /* CircleImage.swift in Sources */,
 				73887AF82433ABDA00A5AE43 /* MapView.swift in Sources */,
 				73EBE98B2433BBE100393754 /* LandmarkList.swift in Sources */,
+				3955378A244B4867003A0AA0 /* BadgeSymbol.swift in Sources */,
 				73887AE42433AB8800A5AE43 /* SceneDelegate.swift in Sources */,
+				39553788244B47D3003A0AA0 /* BadgeBackground.swift in Sources */,
 				73887AE62433AB8800A5AE43 /* LandmarkDetail.swift in Sources */,
 				73EBE9892433B47000393754 /* LandmarkRow.swift in Sources */,
 				3981404B24342AE7004A62CB /* UserData.swift in Sources */,
