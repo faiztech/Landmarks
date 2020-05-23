@@ -6,7 +6,7 @@
 //  Copyright © 2020 Mohammed Faizuddin. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import SwiftUI
 import CoreLocation
 import ImageIO
